@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__top">
+      <div class="container">
+        <div class="header__top-inner">
+          <a href="#" class="logo">
+            <img src="images/Lgotype.png" alt="" class="logo__img">
+          </a>
+          <nav class="menu">
+            <button class="menu__btn">
+              <div class="menu__btn-line"></div>
+              <div class="menu__btn-line"></div>
+              <div class="menu__btn-line"></div>
+            </button>
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a href="#" class="menu__link">Магазины</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Акции</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Доставка и оплата</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__box">
+            <p class="header__adress">
+              Киев, ул. Наливайка 25
+            </p>
+            <ul class="user-list">
+              <li class="user-list__item">
+                <a href="#" class="user-list__link">
+                  <img src="images/heart.svg" alt="">
+                </a>
+              </li>
+              <li class="user-list__item">
+                <a href="#" class="user-list__link">
+                  <img src="images/user.svg" alt="">
+                </a>
+              </li>
+              <li class="user-list__item">
+                <a href="#" class="user-list__link busket">
+                  <img src="images/basket.svg" alt="">
+                  <p class="busket__num">1</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <ul class="menu-mobile__list">
+      <li class="menu-mobile__item">
+        <a class="menu-mobile__link" href="#">
+          <img class="menu-mobile__img" src="images/user.svg" alt="">
+          <p>Войти</p>
+        </a>
+      </li>
+      <li class="menu-mobile__item">
+        <a class="menu-mobile__link" href="#">
+          <img class="menu-mobile__img" src="images/user.svg" alt="">
+          <p>Регистрация</p>
+        </a>
+      </li>
+      <li class="menu-mobile__item">
+        <a class="menu-mobile__link" href="#">
+          <img class="menu-mobile__img" src="images/heart.svg" alt="">
+          <p>Избранное</p>
+        </a>
+      </li>
+      <li class="menu-mobile__item">
+        <a class="menu-mobile__link" href="#">
+          <img class="menu-mobile__img" src="images/basket.svg" alt="">
+          <p>Корзина</p>
+        </a>
+      </li>
+      <li class="menu-mobile__item">
+        <a class="menu-mobile__link" href="#">
+          <img class="menu-mobile__img" src="images/home.svg" alt="">
+          <p>Магазины</p>
+        </a>
+      </li>
+      <li class="menu-mobile__item">
+        <a class="menu-mobile__link" href="#">
+          <img class="menu-mobile__img" src="images/percent.svg" alt="">
+          <p>Акции</p>
+        </a>
+      </li>
+      <li class="menu-mobile__item">
+        <a class="menu-mobile__link" href="#">
+          <img class="menu-mobile__img" src="images/box.svg" alt="">
+          <p>Доставка и оплата</p>
+        </a>
+      </li>
+      <li class="menu-mobile__item">
+        <a class="menu-mobile__link" href="#">
+          <p>Ноутбуки</p>
+        </a>
+      </li>
+      <li class="menu-mobile__item">
+        <a class="menu-mobile__link" href="#">
+          <p>Компютеры</p>
+        </a>
+      </li>
+      <li class="menu-mobile__item">
+        <a class="menu-mobile__link" href="#">
+          <p>Мониторы</p>
+        </a>
+      </li>
+      <li class="menu-mobile__item">
+        <a class="menu-mobile__link" href="#">
+          <p>Компьютерные комплектуючие</p>
+        </a>
+      </li>
+      <li class="menu-mobile__item">
+        <a class="menu-mobile__link" href="#">
+          <p>планшеты</p>
+        </a>
+      </li>
+
+    </ul>
+
+    <div class="menu__mobile-linewrapper">
+      <ul class="menu__mobile-line">
+        <li class="menu__item">
+          <a class="menu__link" href="#">
+            <p>Запчасти</p>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#">
+            <p>Запчасти</p>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#">
+            <p>Запчасти</p>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="header__bottom">
+      <div class="container">
+        <div class="header__bottom-inner">
+          <ul class="menu-categories">
+            <li class="menu-categores__item">
+              <a class="menu-categories__link" href="#">Ноутбуки</a></li>
+            <li class="menu-categores__item">
+              <a class="menu-categories__link" href="#">Компютеры</a></li>
+            <li class="menu-categores__item">
+              <a class="menu-categories__link" href="#">Мониторы</a></li>
+            <li class="menu-categores__item">
+              <a class="menu-categories__link" href="#">Компьютерные комплектуючие</a></li>
+            <li class="menu-categores__item">
+              <a class="menu-categories__link" href="#">Планшеты</a></li>
+            <li class="menu-categores__item">
+              <a class="menu-categories__link" href="#">Аксессуары</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <section class="banner-section page-section">
+    <div class="container">
+      <div class="banner-section__inner">
+        <div class="banner-section__slider">
+          <a class="banner-section__slider-item" href="#">
+            <img class="banner-section__slider-img" src="images/banner-slide1.png" alt="">
+          </a>
+          <a class="banner-section__slider-item" href="#">
+            <img class="banner-section__slider-img" src="images/banner-slide1.png" alt="">
+          </a>
+          <a class="banner-section__slider-item" href="#">
+            <img class="banner-section__slider-img" src="images/banner-slide1.png" alt="">
+          </a>
+          <a class="banner-section__slider-item" href="#">
+            <img class="banner-section__slider-img" src="images/banner-slide1.png" alt="">
+          </a>
+          <a class="banner-section__slider-item" href="#">
+            <img class="banner-section__slider-img" src="images/banner-slide1.png" alt="">
+          </a>
+          <a class="banner-section__slider-item" href="#">
+            <img class="banner-section__slider-img" src="images/banner-slide1.png" alt="">
+          </a>
+        </div>
+        <a class="banner-section__item sale-item" href="#">
+          <div class="sale-item__top">
+            <p class="sale-item__info">
+              акция
+            </p>
+            <div class="sale-item__price">
+              <div class="price sale-item__price-new">799</div>
+              <div class="price sale-item__price-old">960</div>
+            </div>
+          </div>
+          <img src="images/content/mouse.jpg" alt="" class="sale-item__img">
+          <h5 class="sale-item__title">Миша Logitech G102 Lightsync USB Black</h5>
+          <div class="sale-item__footer">
+            Акция действует до
+            <span>31.08.2021</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="search page-section">
+    <div class="container">
+      <div class="search__inner">
+        <div class="tabs search__tabs">
+          <div class="mobile-overflow tabs-wrapper">
+            <a class="tab search__tabs-item tab--active" href="#tab-1">Поиск по номеру</a>
+            <a class="tab search__tabs-item" href="#tab-2">Поиск по марке</a>
+            <a class="tab search__tabs-item" href="#tab-3">Поиск по названию товара</a>
+          </div>
+        </div>
+        <div class="search__content">
+          <div id="tab-1" class="tabs-content search__content-item tabs-content--active">
+            <form action="" class="search__content-form">
+              <input class="search__content-input" type="text" placeholder="Введите номер">
+              <button class="search__content-btn" type="submit">искать</button>
+            </form>
+          </div>
+          <div id="tab-2" class="tabs-content search__content-item">
+            <form action="" class="search__content-form">
+              <input class="search__content-input" type="text" placeholder="Введите марку">
+              <button class="search__content-btn" type="submit">искать</button>
+            </form>
+          </div>
+          <div id="tab-3" class="tabs-content search__content-item">
+            <form action="" class="search__content-form">
+              <input class="search__content-input" type="text" placeholder="Введите название товара">
+              <button class="search__content-btn" type="submit">искать</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="categories page-section">
+    <div class="container">
+      <div class="categories__inner">
+        <a class="categories__item" href="#">
+          <div class="categories__item-info">
+            <h4 class="categories__item-title">Ноутбуки</h4>
+            <p class="categories__item-text">Подробее</p>
+          </div>
+          <div class="categories__item-img">
+            <img src="images/gr0101.jpg" alt="">
+          </div>
+        </a>
+        <a class="categories__item" href="#">
+          <div class="categories__item-info">
+            <h4 class="categories__item-title">Компютеры</h4>
+            <p class="categories__item-text">Подробее</p>
+          </div>
+          <div class="categories__item-img">
+            <img src="images/gr0203.jpg" alt="">
+          </div>
+        </a>
+        <a class="categories__item" href="#">
+          <div class="categories__item-info">
+            <h4 class="categories__item-title">Мониторы</h4>
+            <p class="categories__item-text">Подробее</p>
+          </div>
+          <div class="categories__item-img">
+            <img src="images/0303.jpg" alt="">
+          </div>
+        </a>
+        <a class="categories__item" href="#">
+          <div class="categories__item-info">
+            <h4 class="categories__item-title">Компьютерные комплектуючие</h4>
+            <p class="categories__item-text">Подробее</p>
+          </div>
+          <div class="categories__item-img">
+            <img src="images/0401.png" alt="">
+          </div>
+        </a>
+        <a class="categories__item" href="#">
+          <div class="categories__item-info">
+            <h4 class="categories__item-title">Планшеты</h4>
+            <p class="categories__item-text">Подробее</p>
+          </div>
+          <div class="categories__item-img">
+            <img src="images/0502.jpg" alt="">
+          </div>
+        </a>
+        <a class="categories__item" href="#">
+          <div class="categories__item-info">
+            <h4 class="categories__item-title">Аксессуары</h4>
+            <p class="categories__item-text">Подробее</p>
+          </div>
+          <div class="categories__item-img">
+            <img src="images/0604.jpg" alt="">
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="products">
+    <div class="container">
+      <div class="products__inner">
+        <h3 class="product__title">Популярные товары</h3>
+        <div class="tabs-wrapper">
+          <div class="tabs products__tabs">
+            <a class="tab products__tab tab--active" href="#product-tab-1">Ноутбуки</a>
+            <a class="tab products__tab" href="#product-tab-2">Компютеры</a>
+            <a class="tab products__tab" href="#product-tab-3">Мониторы</a>
+            <a class="tab products__tab" href="#product-tab-4">Компьютерные комплектуючие</a>
+            <a class="tab products__tab" href="#product-tab-5">Планшеты</a>
+            <a class="tab products__tab" href="#product-tab-6">Аксессуары </a>
+          </div>
+          <div class="tabs-container products__container">
+
+            <div id="product-tab-1" class="tabs-content products__content tabs-content--active">
+              <div class="product-slider">
+                <div class="product-slider__item">
+                  <div class="product-item__wrapper">
+                    <button class="product-item__favorite"></button>
+                    <button class="product-item__basket">
+                      <img src="images/basket-white.png" alt="">
+                    </button>
+                    <a class="product-item__notify-link" href="#">
+                      <span>Сообщить о поступлении</span>
+                    </a>
+                    <a class="product-item" href="#">
+                      <p class="product-item__hover-text">
+                        посмотреть товар
+                      </p>
+                      <img class="product-item__img" src="images/content/laptop1.jpg" alt="">
+                      <h4 class="product-item__title">Ноутбук Honor MagicBook X 15</h4>
+                      <p class="price product-item__price">17 000 ₴</p>
+                      <p class="product-item__notify-text">
+                        нет в наличии
+                      </p>
+                    </a>
+                  </div>
+                </div>
+                <div class="product-slider__item">
+                  <div class="product-item__wrapper">
+                    <button class="product-item__favorite"></button>
+                    <button class="product-item__basket">
+                      <img src="images/basket-white.png" alt="">
+                    </button>
+                    <a class="product-item__notify-link" href="#">
+                      <span>Сообщить о поступлении</span>
+                    </a>
+                    <a class="product-item product-item--sale" href="#">
+                      <p class="product-item__hover-text">
+                        посмотреть товар
+                      </p>
+                      <img class="product-item__img" src="images/content/laptop2.jpg" alt="">
+                      <h4 class="product-item__title">apple macbook air 13</h4>
+                      <p class="price product-item__price">30 000 ₴</p>
+                      <p class="product-item__notify-text">
+                        нет в наличии
+                      </p>
+                    </a>
+                  </div>
+                </div>
+                <div class="product-slider__item">
+                  <div class="product-item__wrapper">
+                    <button class="product-item__favorite"></button>
+                    <button class="product-item__basket">
+                      <img src="images/basket-white.png" alt="">
+                    </button>
+                    <a class="product-item__notify-link" href="#">
+                      <span>Сообщить о поступлении</span>
+                    </a>
+                    <a class="product-item product-item--sale" href="#">
+                      <p class="product-item__hover-text">
+                        посмотреть товар
+                      </p>
+                      <img class="product-item__img" src="images/content/laptop3.jpg" alt="">
+                      <h4 class="product-item__title">Huawei MateBook X Pro</h4>
+                      <p class="price product-item__price">37 000 ₴</p>
+                      <p class="product-item__notify-text">
+                        нет в наличии
+                      </p>
+                    </a>
+                  </div>
+                </div>
+                <div class="product-slider__item">
+                  <div class="product-item__wrapper product-item__not-available">
+                    <button class="product-item__favorite"></button>
+                    <button class="product-item__basket">
+                      <img src="images/basket-white.png" alt="">
+                    </button>
+                    <a class="product-item__notify-link" href="#">
+                      <span>Сообщить о поступлении</span>
+                    </a>
+                    <a class="product-item product-item--sale" href="#">
+                      <p class="product-item__hover-text">
+                        посмотреть товар
+                      </p>
+                      <img class="product-item__img" src="images/content/laptop4.jpeg" alt="">
+                      <h4 class="product-item__title">Acer Aspire 3 A315-57G-336G</h4>
+                      <p class="price product-item__price">17 000 ₴</p>
+                      <p class="product-item__notify-text">
+                        нет в наличии
+                      </p>
+                    </a>
+                  </div>
+                </div>
+                <div class="product-slider__item">
+                  <div class="product-item__wrapper">
+                    <button class="product-item__favorite"></button>
+                    <button class="product-item__basket">
+                      <img src="images/basket-white.png" alt="">
+                    </button>
+                    <a class="product-item__notify-link" href="#">
+                      <span>Сообщить о поступлении</span>
+                    </a>
+                    <a class="product-item product-item--sale" href="#">
+                      <p class="product-item__hover-text">
+                        посмотреть товар
+                      </p>
+                      <img class="product-item__img" src="images/content/laptop5.jpg" alt="">
+                      <h4 class="product-item__title">HP 15s-eq1003ua (1U9R9EA)</h4>
+                      <p class="price product-item__price">19 000 ₴</p>
+                      <p class="product-item__notify-text">
+                        нет в наличии
+                      </p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="product-tab-2" class="tabs-content products__content">slider-2</div>
+            <div id="product-tab-3" class="tabs-content products__content">slider-3</div>
+            <div id="product-tab-4" class="tabs-content products__content">slider-4</div>
+            <div id="product-tab-5" class="tabs-content products__content">slider-5</div>
+            <div id="product-tab-6" class="tabs-content products__content">slider-6</div>
+          </div>
+        </div>
+        <div class="product__more">
+          <a class="product__more-link" href="#">Показать еще</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="banner">
+    <div class="container">
+      <a href="#" class="banner-link">
+        <img src="images/content/banner2.png" alt="">
+      </a>
+    </div>
+  </div>
+
+
+  <section class="products">
+    <div class="container">
+      <div class="products__inner">
+        <h3 class="product__title">Просмотренные товары</h3>
+        <div class="tabs-wrapper">
+          <div class="tabs-container products__container">
+
+            <div id="popular-tab-1" class="tabs-content products__content tabs-content--active">
+              <div class="product-slider">
+                <div class="product-slider__item">
+                  <div class="product-item__wrapper">
+                    <button class="product-item__favorite"></button>
+                    <button class="product-item__basket">
+                      <img src="images/basket-white.png" alt="">
+                    </button>
+                    <a class="product-item__notify-link" href="#">
+                      <span>Сообщить о поступлении</span>
+                    </a>
+                    <a class="product-item" href="#">
+                      <p class="product-item__hover-text">
+                        посмотреть товар
+                      </p>
+                      <img class="product-item__img" src="images/content/laptop1.jpg" alt="">
+                      <h4 class="product-item__title">Ноутбук Honor MagicBook X 15</h4>
+                      <p class="price product-item__price">17 000 ₴</p>
+                      <p class="product-item__notify-text">
+                        нет в наличии
+                      </p>
+                    </a>
+                  </div>
+                </div>
+                <div class="product-slider__item">
+                  <div class="product-item__wrapper">
+                    <button class="product-item__favorite"></button>
+                    <button class="product-item__basket">
+                      <img src="images/basket-white.png" alt="">
+                    </button>
+                    <a class="product-item__notify-link" href="#">
+                      <span>Сообщить о поступлении</span>
+                    </a>
+                    <a class="product-item product-item--sale" href="#">
+                      <p class="product-item__hover-text">
+                        посмотреть товар
+                      </p>
+                      <img class="product-item__img" src="images/content/pc01.jpg" alt="">
+                      <h4 class="product-item__title">ARTLINE Gaming X39 v38</h4>
+                      <p class="price product-item__price">17 400 ₴</p>
+                      <p class="product-item__notify-text">
+                        нет в наличии
+                      </p>
+                    </a>
+                  </div>
+                </div>
+                <div class="product-slider__item">
+                  <div class="product-item__wrapper">
+                    <button class="product-item__favorite"></button>
+                    <button class="product-item__basket">
+                      <img src="images/basket-white.png" alt="">
+                    </button>
+                    <a class="product-item__notify-link" href="#">
+                      <span>Сообщить о поступлении</span>
+                    </a>
+                    <a class="product-item product-item--sale" href="#">
+                      <p class="product-item__hover-text">
+                        посмотреть товар
+                      </p>
+                      <img class="product-item__img" src="images/content/laptop3.jpg" alt="">
+                      <h4 class="product-item__title">Huawei MateBook X Pro</h4>
+                      <p class="price product-item__price">37 000 ₴</p>
+                      <p class="product-item__notify-text">
+                        нет в наличии
+                      </p>
+                    </a>
+                  </div>
+                </div>
+                <div class="product-slider__item">
+                  <div class="product-item__wrapper product-item__not-available">
+                    <button class="product-item__favorite"></button>
+                    <button class="product-item__basket">
+                      <img src="images/basket-white.png" alt="">
+                    </button>
+                    <a class="product-item__notify-link" href="#">
+                      <span>Сообщить о поступлении</span>
+                    </a>
+                    <a class="product-item product-item--sale" href="#">
+                      <p class="product-item__hover-text">
+                        посмотреть товар
+                      </p>
+                      <img class="product-item__img" src="images/content/pl01.jpg" alt="">
+                      <h4 class="product-item__title">Samsung Galaxy Tab A7 10.4</h4>
+                      <p class="price product-item__price">7 000 ₴</p>
+                      <p class="product-item__notify-text">
+                        нет в наличии
+                      </p>
+                    </a>
+                  </div>
+                </div>
+                <div class="product-slider__item">
+                  <div class="product-item__wrapper">
+                    <button class="product-item__favorite"></button>
+                    <button class="product-item__basket">
+                      <img src="images/basket-white.png" alt="">
+                    </button>
+                    <a class="product-item__notify-link" href="#">
+                      <span>Сообщить о поступлении</span>
+                    </a>
+                    <a class="product-item product-item--sale" href="#">
+                      <p class="product-item__hover-text">
+                        посмотреть товар
+                      </p>
+                      <img class="product-item__img" src="images/content/mouse.jpg" alt="">
+                      <h4 class="product-item__title">Миша Logitech G102 Lightsync USB Black</h4>
+                      <p class="price product-item__price">799 ₴</p>
+                      <p class="product-item__notify-text">
+                        нет в наличии
+                      </p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="popular-tab-2" class="tabs-content products__content">slider-2</div>
+            <div id="popular-tab-3" class="tabs-content products__content">slider-3</div>
+            <div id="popular-tab-4" class="tabs-content products__content">slider-4</div>
+            <div id="popular-tab-5" class="tabs-content products__content">slider-5</div>
+            <div id="popular-tab-6" class="tabs-content products__content">slider-6</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__top-inner">
+          <div class="footer__top-item footer__top-newslatter">
+            <h6 class="footer__top-title">Подпишитесь на нашу рассылку и узнавайте о акция быстрее</h6>
+            <form class="footer-form" action="">
+              <input class="footer-form__input" type="text" placeholder="Введите ваш e-mail:">
+              <button class="footer-form__btn" type="submit">Отправить</button>
+            </form>
+          </div>
+          <div class="footer__top-item footer__top-itemdrop">
+            <h6 class="footer__top-title  footer__topdrop ">
+              Информация
+            </h6>
+            <ul class="footer-list">
+              <li class="footer-list__item"><a href="#">О компании</a></li>
+              <li class="footer-list__item"><a href="#">Контакты</a></li>
+              <li class="footer-list__item"><a href="#">Акции</a></li>
+              <li class="footer-list__item"><a href="#">Магазины</a></li>
+            </ul>
+          </div>
+          <div class="footer__top-item footer__top-itemdrop">
+            <h6 class="footer__top-title  footer__topdrop">
+              Интернет-магазин
+            </h6>
+            <ul class="footer-list">
+              <li class="footer-list__item"><a href="#">Доставка и самовывоз</a></li>
+              <li class="footer-list__item"><a href="#">Оплата</a></li>
+              <li class="footer-list__item"><a href="#">Возврат-обмен</a></li>
+              <li class="footer-list__item"><a href="#">Новости</a></li>
+            </ul>
+          </div>
+          <div class="footer__top-item">
+             <ul class="social-list">
+               <li class="social-list__item"><a href="#">
+                 <img src="images/instagram.svg" alt="">
+               </a></li>
+               <li class="social-list__item">
+                  <a href="#">
+                    <img src="images/vk.svg" alt="">
+                  </a>
+               </li>
+               <li class="social-list__item"><a href="#">
+                 <img src="images/facebook.svg" alt="">
+               </a></li>
+               <li class="social-list__item"><a href="#">
+                 <img src="images/youtube.svg" alt="">
+               </a></li>
+             </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <a class="footer__bottom-link" href="#">Договор оферты</a>
+        <a class="footer__bottom-link" href="#">Политика обработки персональных данных</a>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/slick.min.js"></script>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
