@@ -29,7 +29,7 @@
         $(this).addClass('tab--active');
         $($(this).attr('href')).addClass('tabs-content--active');
 
-       // $('.product-slider').slick('setPosition');
+    //    $('.product-slider').slick('setPosition');
     });
 
     $('.product-item__favorite').on('click', function(){
@@ -37,42 +37,46 @@
     });
 
     $('.product-slider').slick({
-        slidesToShow:4,
-        slidesToScroll:1,
+        slidesToShow: 4,
+        slidesToScroll: 1,
         prevArrow: '<button class="product-slider__slider-btn product-slider__slider-btnprev"><img src="images/arrow-black-left.svg" alt=""></button>',
         nextArrow: '<button class="product-slider__slider-btn product-slider__slider-btnnext"><img src="images/arrow-black-right.svg" alt=""></button>',
         responsive: [
             {
-                breakpoint:1301,
+                breakpoint:1500,
                 settings: {
                     arrows:false,
-                    dots:true
-                }
+                    dots:true,
+                },
             },
             {
-                breakpoint:1201,
+                breakpoint: 1400,
                 settings: {
+                    arrows:false,
                     slidesToShow: 3,
-                    dots:true
-                }
+                    dots:true,
+                },
             },
             {
-                breakpoint:870,
+                breakpoint: 920,
                 settings: {
+                    arrows:false,
                     slidesToShow: 2,
-                    dots:true
-                }
+                    dots:true,
+                },
             },
             {
-                breakpoint:590,
+                breakpoint: 630,
                 settings: {
+                    arrows:false,
                     slidesToShow: 1,
-                    dots:true
-                }
-            }
+                    dots:true,
+                },
+            },
 
         ]
     });
+
 
     $('.filter-style').styler();
 

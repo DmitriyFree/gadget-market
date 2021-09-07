@@ -23,11 +23,6 @@
             <img src="images/Logotype.svg" alt="" class="logo__img">
           </a>
           <nav class="menu">
-            <button class="menu__btn">
-              <div class="menu__btn-line"></div>
-              <div class="menu__btn-line"></div>
-              <div class="menu__btn-line"></div>
-            </button>
             <ul class="menu__list">
               <li class="menu__item">
                 <a href="#" class="menu__link">Магазины</a>
@@ -38,12 +33,12 @@
               <li class="menu__item">
                 <a href="#" class="menu__link">Доставка и оплата</a>
               </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Новости</a>
+              </li>
             </ul>
           </nav>
           <div class="header__box">
-            <p class="header__adress">
-              Киев, ул Шевченко 120
-            </p>
             <ul class="user-list">
               <li class="user-list__item">
                 <a href="#" class="user-list__link">
@@ -62,7 +57,13 @@
                 </a>
               </li>
             </ul>
+            <button class="menu__btn">
+              <div class="menu__btn-line"></div>
+              <div class="menu__btn-line"></div>
+              <div class="menu__btn-line"></div>
+            </button>
           </div>
+
         </div>
       </div>
     </div>
@@ -226,7 +227,7 @@
   <section class="search page-section">
     <div class="container">
       <div class="search__inner">
-        <div class="tabs search__tabs">
+        <div class="tabs search__tabs tabs-wrapper">
           <div class="mobile-overflow tabs-wrapper">
             <a class="tab search__tabs-item tab--active" href="#tab-1">Поиск по номеру</a>
             <a class="tab search__tabs-item" href="#tab-2">Поиск по марке</a>
@@ -529,7 +530,7 @@
                       <div class="product-item__img-container">
                         <img class="product-item__img" src="images/content/pc01.jpg" alt="">
                       </div>
-                      <h4 class="product-item__title">ARTLINE Gaming X39 v38</h4>
+                      <h4 class="product-item__title">Компютер ARTLINE Gaming X39 v38</h4>
                       <p class="price product-item__price">17 400 ₴</p>
                       <p class="product-item__notify-text">
                         нет в наличии
@@ -553,7 +554,7 @@
                       <div class="product-item__img-container">
                         <img class="product-item__img" src="images/content/laptop3.jpg" alt="">
                       </div>
-                      <h4 class="product-item__title">Huawei MateBook X Pro</h4>
+                      <h4 class="product-item__title">Ноутбук Huawei MateBook X Pro</h4>
                       <p class="price product-item__price">37 000 ₴</p>
                       <p class="product-item__notify-text">
                         нет в наличии
@@ -574,11 +575,10 @@
                       <p class="product-item__hover-text">
                         посмотреть товар
                       </p>
-                      <!-- <img class="product-item__img" src="images/content/pl01.jpg" alt=""> -->
                       <div class="product-item__img-container">
                         <img class="product-item__img" src="images/content/pl01.jpg" alt="">
                       </div>
-                      <h4 class="product-item__title">Samsung Galaxy Tab A7 10.4</h4>
+                      <h4 class="product-item__title">Планшеты Samsung Galaxy Tab A7 10.4</h4>
                       <p class="price product-item__price">7 000 ₴</p>
                       <p class="product-item__notify-text">
                         нет в наличии
@@ -612,11 +612,6 @@
                 </div>
               </div>
             </div>
-            <div id="popular-tab-2" class="tabs-content products__content">slider-2</div>
-            <div id="popular-tab-3" class="tabs-content products__content">slider-3</div>
-            <div id="popular-tab-4" class="tabs-content products__content">slider-4</div>
-            <div id="popular-tab-5" class="tabs-content products__content">slider-5</div>
-            <div id="popular-tab-6" class="tabs-content products__content">slider-6</div>
           </div>
         </div>
       </div>
@@ -656,7 +651,7 @@
               <li class="footer-list__item"><a href="#">Новости</a></li>
             </ul>
           </div>
-          <div class="footer__top-item">
+          <div class="footer__top-item footer__top-social">
              <ul class="social-list">
                <li class="social-list__item"><a href="#">
                  <img src="images/instagram.svg" alt="">
@@ -684,7 +679,6 @@
   </footer>
 
 
-
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="js/slick.min.js"></script>
   <script src="js/jquery.rateyo.min.js"></script>
@@ -692,6 +686,7 @@
   <script src="js/ion.rangeSlider.min.js"></script>
   <script src="js/jquery.formstyler.min.js"></script>
   <script src="js/main.js"></script>
+
 </body>
 
 </html>
