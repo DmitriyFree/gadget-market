@@ -227,7 +227,7 @@
   <section class="search page-section">
     <div class="container">
       <div class="search__inner">
-        <div class="tabs search__tabs tabs-wrapper">
+        <div class="tabs search__tabs mobile-wrapper">
           <div class="mobile-overflow tabs-wrapper">
             <a class="tab search__tabs-item tab--active" href="#tab-1">Поиск по номеру</a>
             <a class="tab search__tabs-item" href="#tab-2">Поиск по марке</a>
@@ -267,7 +267,7 @@
             <p class="categories__item-text">Подробее</p>
           </div>
           <div class="categories__item-img">
-            <img src="images/gr0101.jpg" alt="">
+            <img src="images/categories-01.jpg" alt="">
           </div>
         </a>
         <a class="categories__item" href="#">
@@ -276,7 +276,7 @@
             <p class="categories__item-text">Подробее</p>
           </div>
           <div class="categories__item-img">
-            <img src="images/gr0203.jpg" alt="">
+            <img src="images/categories-02.jpg" alt="">
           </div>
         </a>
         <a class="categories__item" href="#">
@@ -285,7 +285,7 @@
             <p class="categories__item-text">Подробее</p>
           </div>
           <div class="categories__item-img">
-            <img src="images/0303.jpg" alt="">
+            <img src="images/categories-03.jpg" alt="">
           </div>
         </a>
         <a class="categories__item" href="#">
@@ -294,7 +294,7 @@
             <p class="categories__item-text">Подробее</p>
           </div>
           <div class="categories__item-img">
-            <img src="images/0401.png" alt="">
+            <img src="images/categories-04.jpg" alt="">
           </div>
         </a>
         <a class="categories__item" href="#">
@@ -303,7 +303,7 @@
             <p class="categories__item-text">Подробее</p>
           </div>
           <div class="categories__item-img">
-            <img src="images/0502.jpg" alt="">
+            <img src="images/categories-05.jpg" alt="">
           </div>
         </a>
         <a class="categories__item" href="#">
@@ -312,7 +312,7 @@
             <p class="categories__item-text">Подробее</p>
           </div>
           <div class="categories__item-img">
-            <img src="images/0604.jpg" alt="">
+            <img src="images/categories-06.jpg" alt="">
           </div>
         </a>
       </div>
@@ -324,13 +324,16 @@
       <div class="products__inner">
         <h3 class="product__title">Популярные товары</h3>
         <div class="tabs-wrapper">
-          <div class="tabs products__tabs">
-            <a class="tab products__tab tab--active" href="#product-tab-1">Ноутбуки</a>
-            <a class="tab products__tab" href="#product-tab-2">Компютеры</a>
-            <a class="tab products__tab" href="#product-tab-3">Мониторы</a>
-            <a class="tab products__tab" href="#product-tab-4">Компьютерные комплектуючие</a>
-            <a class="tab products__tab" href="#product-tab-5">Планшеты</a>
-            <a class="tab products__tab" href="#product-tab-6">Аксессуары </a>
+          <div class="tabs products__tabs mobile-wrapper">
+            <div class="mobile-overflow tabs-wrapper test">
+              <a class="tab products__tab tab--active" href="#product-tab-1">Ноутбуки</a>
+              <a class="tab products__tab" href="#product-tab-2">Компютеры</a>
+              <a class="tab products__tab" href="#product-tab-3">Мониторы</a>
+              <a class="tab products__tab" href="#product-tab-4">Компьютерные комплектуючие</a>
+              <a class="tab products__tab" href="#product-tab-5">Планшеты</a>
+              <a class="tab products__tab" href="#product-tab-6">Аксессуары </a>
+            </div>
+
           </div>
           <div class="tabs-container products__container">
 
@@ -422,7 +425,7 @@
                         посмотреть товар
                       </p>
                       <div class="product-item__img-container">
-                        <img class="product-item__img" src="images/content/laptop4.jpeg" alt="">
+                        <img class="product-item__img" src="images/content/laptop4.jpg" alt="">
                       </div>
                       <h4 class="product-item__title">Acer Aspire 3 A315-57G-336G</h4>
                       <p class="price product-item__price">17 000 ₴</p>
@@ -458,11 +461,135 @@
                 </div>
               </div>
             </div>
-            <div id="product-tab-2" class="tabs-content products__content">slider-2</div>
+            <div id="product-tab-2" class="tabs-content products__content">
+              <div class="product-slider">
+                <div class="product-slider__item">
+                  <div class="product-item__wrapper">
+                    <button class="product-item__favorite"></button>
+                    <button class="product-item__basket">
+                      <img src="images/basket-white.png" alt="">
+                    </button>
+                    <a class="product-item__notify-link" href="#">
+                      <span>Сообщить о поступлении</span>
+                    </a>
+                    <a class="product-item product-item--sale" href="#">
+                      <p class="product-item__hover-text">
+                        посмотреть товар
+                      </p>
+                      <div class="product-item__img-container">
+                        <img class="product-item__img" src="images/content/pc01.jpg" alt="">
+                      </div>
+                      <h4 class="product-item__title">Компютер ARTLINE Gaming X39 v38</h4>
+                      <p class="price product-item__price">17 400 ₴</p>
+                      <p class="product-item__notify-text">
+                        нет в наличии
+                      </p>
+                    </a>
+                  </div>
+                </div>
+                <div class="product-slider__item">
+                  <div class="product-item__wrapper">
+                    <button class="product-item__favorite"></button>
+                    <button class="product-item__basket">
+                      <img src="images/basket-white.png" alt="">
+                    </button>
+                    <a class="product-item__notify-link" href="#">
+                      <span>Сообщить о поступлении</span>
+                    </a>
+                    <a class="product-item product-item--sale" href="#">
+                      <p class="product-item__hover-text">
+                        посмотреть товар
+                      </p>
+                      <div class="product-item__img-container">
+                        <img class="product-item__img" src="images/content/pc01.jpg" alt="">
+                      </div>
+                      <h4 class="product-item__title">Компютер ARTLINE Gaming X39 v38</h4>
+                      <p class="price product-item__price">17 400 ₴</p>
+                      <p class="product-item__notify-text">
+                        нет в наличии
+                      </p>
+                    </a>
+                  </div>
+                </div>
+                <div class="product-slider__item">
+                  <div class="product-item__wrapper">
+                    <button class="product-item__favorite"></button>
+                    <button class="product-item__basket">
+                      <img src="images/basket-white.png" alt="">
+                    </button>
+                    <a class="product-item__notify-link" href="#">
+                      <span>Сообщить о поступлении</span>
+                    </a>
+                    <a class="product-item product-item--sale" href="#">
+                      <p class="product-item__hover-text">
+                        посмотреть товар
+                      </p>
+                      <div class="product-item__img-container">
+                        <img class="product-item__img" src="images/content/pc01.jpg" alt="">
+                      </div>
+                      <h4 class="product-item__title">Компютер ARTLINE Gaming X39 v38</h4>
+                      <p class="price product-item__price">17 400 ₴</p>
+                      <p class="product-item__notify-text">
+                        нет в наличии
+                      </p>
+                    </a>
+                  </div>
+                </div>
+                <div class="product-slider__item">
+                  <div class="product-item__wrapper">
+                    <button class="product-item__favorite"></button>
+                    <button class="product-item__basket">
+                      <img src="images/basket-white.png" alt="">
+                    </button>
+                    <a class="product-item__notify-link" href="#">
+                      <span>Сообщить о поступлении</span>
+                    </a>
+                    <a class="product-item product-item--sale" href="#">
+                      <p class="product-item__hover-text">
+                        посмотреть товар
+                      </p>
+                      <div class="product-item__img-container">
+                        <img class="product-item__img" src="images/content/pc01.jpg" alt="">
+                      </div>
+                      <h4 class="product-item__title">Компютер ARTLINE Gaming X39 v38</h4>
+                      <p class="price product-item__price">17 400 ₴</p>
+                      <p class="product-item__notify-text">
+                        нет в наличии
+                      </p>
+                    </a>
+                  </div>
+                </div>
+                <div class="product-slider__item">
+                  <div class="product-item__wrapper">
+                    <button class="product-item__favorite"></button>
+                    <button class="product-item__basket">
+                      <img src="images/basket-white.png" alt="">
+                    </button>
+                    <a class="product-item__notify-link" href="#">
+                      <span>Сообщить о поступлении</span>
+                    </a>
+                    <a class="product-item product-item--sale" href="#">
+                      <p class="product-item__hover-text">
+                        посмотреть товар
+                      </p>
+                      <div class="product-item__img-container">
+                        <img class="product-item__img" src="images/content/pc01.jpg" alt="">
+                      </div>
+                      <h4 class="product-item__title">Компютер ARTLINE Gaming X39 v38</h4>
+                      <p class="price product-item__price">17 400 ₴</p>
+                      <p class="product-item__notify-text">
+                        нет в наличии
+                      </p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div id="product-tab-3" class="tabs-content products__content">slider-3</div>
             <div id="product-tab-4" class="tabs-content products__content">slider-4</div>
             <div id="product-tab-5" class="tabs-content products__content">slider-5</div>
             <div id="product-tab-6" class="tabs-content products__content">slider-6</div>
+
           </div>
         </div>
         <div class="product__more">

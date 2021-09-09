@@ -424,8 +424,11 @@ body{
     overflow: hidden;
 }
 .categories__item-img{
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 50%;
+
 }
 .categories__item-img img{
     max-width: 100%;
@@ -450,6 +453,7 @@ body{
 }
 .categories__item-text::after{
     content: url('../images/link-arrow.svg');
+    margin-left: 5px;
 }
 .product__title{
     font-family: 'Barlow', sans-serif;
@@ -1474,4 +1478,10 @@ body{
 }
 .product-slider__item {
     margin: 0 auto;
+}
+.mobale-wrapper {
+    overflow-x: scroll;
+}
+.test {
+    width: 1000px;
 }

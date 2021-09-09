@@ -88,7 +88,7 @@
     .mobile-overflow{
         width: 1000px;
     }
-    .tabs-wrapper{
+    .mobile-wrapper{
         overflow-x: scroll;
     }
     .tabs-wrapper.tabs-wrapper-no-scroll{
