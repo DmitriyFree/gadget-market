@@ -724,6 +724,7 @@ body{
     border: none;
     background: #1C62CD;
     padding: 10px 16px;
+    cursor: pointer;
 
 }
 .footer__top-item{
@@ -818,7 +819,7 @@ body{
     height: 19px;
 }.catalog__filter-button{
     opacity: 0.3;
-    outline: none'
+    outline: none;
 }
 .catalog__filter-button--active{
     opacity: 1;
